@@ -1,0 +1,269 @@
+@media screen and (max-width: 800px){
+    /****************** Header Styling ********************************/
+    header{
+        height: max-content;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .head{
+        justify-content: space-between;
+        width: 100%;
+    }
+    header .navigation{
+       height: 0px;
+       overflow: hidden;
+       flex-direction: column;
+       justify-content: center;
+    }
+    ul li a.homelink{
+        border: none;
+    }
+    header .navigation ul{
+        flex-direction: column;
+        height: max-content;
+        display: none;
+    }
+    header .navigation ul{
+        display: flex;
+        
+    }
+    header .navigation ul li{
+        height: max-content;
+        padding: 10px;
+    }
+    header .navigation ul li a{
+        padding: 10px;
+        
+    }
+    header .navigation ul li a:hover{
+        border-bottom: solid 4px #EF8506;
+    }
+    header .navigation.active{
+        height: 100%;
+        width: 100%;
+        
+    }
+    header .toggle{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .toggle span{
+        width: 35px;
+        height: 3px;
+        border-radius: 4px;
+        background-color: #EF8506;
+        margin: 2px;
+    }
+    .btn div{
+        display: none;
+    }
+    .btn{
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 40%;
+    }
+    .btn button{
+        height: 40px;
+        width: 250px;
+        margin: 10px;
+    }
+
+
+
+    /******************* Search bar Styling ******************/
+    .search form input{
+        width: 65%;
+    }
+
+
+    /***************** Cat Styling ******************************/
+    .pub img{
+        width: 80%;
+        height: 150px;
+    }
+    .home{
+        width: 100%;
+        height: 70px;
+    }
+    .swiper-button-next1, .swiper-button-prev1{
+        display: none;
+    }
+    .fond img{
+        width: 90%;
+        height: 140px;
+    }
+    .cat{
+        margin-bottom: 0px;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+        margin-bottom: 0px;
+    }
+    /************************ Product Styling******************/
+    .addbtn{
+        padding: 2px 8px;
+        width: max-content;
+        top: 0px;
+    }
+    .addbtn a{
+        font-size: 17px;
+    }
+    .most_common h2 {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .s2{
+        width: 95%;
+    }
+    .cart{
+        box-shadow: hsl(0, 0%, 89%) 4px 3px 3px;
+    }
+    .cart, .cart:hover{
+        width: 140px;
+        height: 190px;
+        margin-bottom: 0px;
+    }
+    .cart i{
+        font-size: 15px;
+    }
+    .cart div img{
+        height: 80px;
+        width: 80px;
+    }
+    .cart:hover div img{
+        height: 90px;
+        width: 90px;
+    }
+
+
+    .cart h3 {
+        margin: 0px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .cart p{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .price span:first-child {
+        font-size: 12px;
+    }
+    .swiper-button-next2,.swiper-button-prev2,.swiper-button-next4,.swiper-button-prev4{
+        box-shadow: none;
+        height: 20px;
+        width: 20px;
+        border: none;
+    }
+    .swiper-button-next2, .swiper-button-next4{
+        right: 5px;
+    }
+    .swiper-button-prev2, .swiper-button-prev4{
+        left: 5px;
+    }
+    .promotion{
+        padding: 2px;
+        font-size: 10px;
+    }
+    /********************************Footer Styling ***************************/
+    .info{
+        flex-direction: column;
+    }
+    .contact{
+        width: 100%;
+    }	
+    .pic{
+        width: 100%;
+    }
+    /*********************** Login Styling ************************************/
+    .login form{
+        width: 100%;
+    }
+    form div input{
+        height: 48px;
+    }
+
+
+    /*************************** Pro Details *****************************/
+    .parent{
+        flex-direction: column;
+        justify-content: flex-end;
+        height: max-content;
+    }
+    .presentation{
+        width: 100%;
+    }
+    .presentation > img {
+        width: 300px;
+        height: 200px;
+    }
+    .parent .info{
+        width: 80%;
+    }
+    .parent .info h1 {
+        font-size: 25px;
+    }
+    .service{
+        flex-direction: row;
+    }
+    .mark{
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        justify-content: space-between;
+        width: 100%;
+        background-color: white;
+    }
+    .gallery{
+        flex-direction: row;
+        width: 70%;
+    }
+    .buy_btn button{
+        font-size: 15px;
+        width: 220px;
+    }
+    #pc{
+        display: none;
+    }
+    #phone{
+        display: flex;
+        margin: 25px;
+    }
+    .allpro{
+        grid-template-columns: auto auto;
+      }
+    /************************Favorites Styling *************************/
+    .cartfav{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .table{
+        width: 100%;
+    }
+    .userEditBtn a button{
+        width: 60px;
+        height: 25px;
+    }
+    .remove button{
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .account{
+        width: 100%;
+    }
+    .account div.active ul{
+        align-items: center;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .allpro{
+        grid-template-columns: auto auto auto;
+      }
+}
